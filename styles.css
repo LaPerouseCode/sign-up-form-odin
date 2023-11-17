@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url('https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf');
+}
+
+.bigcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.rightcontainer {
+    flex: 2; /* Takes available space (two-thirds) */
+}
+
+.leftcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-size: cover;
+    flex: 1;
+    align-items: center;
+    background-image: url('plant.jpg');
+    height: 100vh;
+    width: 100%;
+}
+
+
+.logocontainer {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    margin-top: 300px;
+    width: auto;
+}
+
+
+.leftcontainer .logocontainer img {
+    height: 100px;
+    width: 80px;
+    margin-right: 10px; /* Space between logo and text */
+}
+
+#textodin {
+    font-size: 90px;
+    color: white;
+    font-family: Norse-Bold;
+}
