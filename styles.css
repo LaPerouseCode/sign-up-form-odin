@@ -144,7 +144,10 @@ input:focus {
 }
 
 .createaccountcontainer {
-
     margin-top: 20px;
     margin-left: 10px;
+    /* gap: 30px; */
+}
+.button {
+    margin-bottom: 10px; /* Adds a small gap below the button */
 }
