@@ -18,16 +18,22 @@
 
         <div class="rightcontainer">
             <div class="headercontainer">
-                <p> This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                <p><b> This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
                     Sign up now to get started.</p>
-                   <p> You <i>know</i> you want to.</p>
+                   <p> You <i>know</i> you want to.</p></b>
                 </div>
                 <div class="middlecontainer"> 
-                    <div class="leftside">
-                        <p>Let's do this! </p>
-                        <input> First Name
-                        <input> Email
-                        <input> Password 
+                    <form>
+                        <div class="leftside">
+                        <h3>Let's do this!</h3>
+                        <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="Enter your First name">
+                        
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email">
+                        
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password">
                     </div>
                     <div class="rightside">
                         <input> Last Name
@@ -35,7 +41,7 @@
                         <input> Confirm Password 
                     </div>
                 </div>
-            
+                    </form>
 
             <div class="formcontainer">
             </div>
