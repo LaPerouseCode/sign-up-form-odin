@@ -23,25 +23,49 @@
                    <p> You <i>know</i> you want to.</p></b>
                 </div>
                 <div class="middlecontainer"> 
-                    <form>
-                        <div class="leftside">
-                        <h3>Let's do this!</h3>
-                        <label for="firstname">First Name</label>
-                        <input type="text" id="firstname" name="firstname" placeholder="Enter your First name">
-                        
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Enter your email">
-                        
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="password" placeholder="Enter your password">
+                    <!-- <form> -->
+                        <div class="lets">
+                            <h3>Let's do this!</h3>
+                        </div>
+                        <!-- Form fields layout -->
+                <div class="form-fields">
+                    <!-- Row 1: First Name and Last Name -->
+                    <div class="row1">
+                        <div class="input-group">
+                            <label for="firstname">First Name</label>
+                            <input type="text" id="firstname" name="firstname" placeholder="Enter your First name">
+                        </div>
+                        <div class="input-group">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" id="lastname" name="lastname" placeholder="Enter your Last name">
+                        </div>
                     </div>
-                    <div class="rightside">
-                        <input> Last Name
-                        <input> Phone Number
-                        <input> Confirm Password 
+
+                    <!-- Row 2: Email and Phone Number -->
+                    <div class="row2">
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email">
+                        </div>
+                        <div class="input-group">
+                            <label for="phonenumber">Phone Number</label>
+                            <input type="number" id="phonenumber" name="phonenumber" placeholder="Enter your phone number">
+                        </div>
+                    </div>
+
+                    <!-- Row 3: Password and Confirm Password -->
+                    <div class="row3">
+                        <div class="input-group" class="error">
+                            <label for="password">Password</label>
+                            <input type="password" class="error" id="password" name="password" placeholder="Enter your password">
+                        </div>
+                        <div class="input-group">
+                            <label for="confirmpassword">Confirm Password</label>
+                            <input type="password" class="error" id="confirmpassword" name="confirmpassword" placeholder="Confirm your password">
+                        </div>
                     </div>
                 </div>
-                    </form>
+                    <!-- </form> -->
 
             <div class="formcontainer">
             </div>
