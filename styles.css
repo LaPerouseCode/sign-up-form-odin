@@ -137,3 +137,14 @@ input:focus {
     border: 1px solid blue; /* Add blue border when the input is focused */
     box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* Add subtle box-shadow */
 }
+
+.error {
+    border: 1px solid red; /* Add red border to indicate error */
+    color: red; /* Change text color to red */
+}
+
+.createaccountcontainer {
+
+    margin-top: 20px;
+    margin-left: 10px;
+}
