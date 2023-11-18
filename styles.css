@@ -30,7 +30,7 @@
     align-items: center;
     background-color: rgba(0, 0, 0, 0.4);
     padding: 10px;
-    margin-top: 300px;
+    margin-top: 200px;
     width: auto;
 }
 
@@ -45,4 +45,39 @@
     font-size: 90px;
     color: white;
     font-family: Norse-Bold;
+}
+
+.headercontainer {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    height: 30vh;
+    margin-bottom: 5px;
+    padding: 20px;
+    justify-content: flex-end; /* Aligns content to the bottom */
+    align-items: flex-start;
+
+}
+
+.headercontainer p:last-child {
+    /* margin-top: auto; Pushes the last paragraph to the bottom */
+    text-align: left; /* Aligns the text to the left */
+    margin-bottom: 0; /* Resets any default margin */
+}
+.middlecontainer {
+    display: flex;
+
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+
 }
